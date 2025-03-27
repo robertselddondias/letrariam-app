@@ -20,6 +20,7 @@ dependencies:
   in_app_purchase_storekit: ^0.3.21
   shared_preferences: ^2.5.2
   games_services: ^4.0.3
+  flutter_emoji: ^2.5.1
 
 dev_dependencies:
   flutter_test:

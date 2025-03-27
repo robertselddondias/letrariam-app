@@ -1,6 +1,7 @@
 // main.dart
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:letrarium/services/batch_word_service.dart';
 import 'package:letrarium/ui/splash_screen.dart';
 import 'package:letrarium/ui/start_screen.dart';
 
@@ -9,6 +10,9 @@ void main() async {
 
   // Inicializa o Firebase
   await Firebase.initializeApp();
+
+  // final BatchWordService batchService = BatchWordService();
+  // await batchService.rebuildWordDatabase();
 
   runApp(const MyApp());
 }

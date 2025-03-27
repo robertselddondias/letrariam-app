@@ -14,6 +14,7 @@ import 'package:letrarium/services/firebase_service.dart';
 import 'package:letrarium/services/level_service.dart';
 import 'package:letrarium/ui/start_screen.dart';
 import 'package:letrarium/ui/unlock_levels_screen.dart';
+import 'package:letrarium/utils/emoji_mapping.dart';
 
 class GameScreen extends StatefulWidget {
   final int level;
@@ -300,8 +301,16 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
     for (int i = 0; i < fallingLetters.length; i++) {
       LetterTile letter = fallingLetters[i];
 
-      // Calcula a velocidade baseada no nível
-      double speed = 2.0 + (widget.level * 0.2);
+      // Calcula a velocidade com base no nível
+      // Velocidade base mais baixa (1.0 em vez de 2.0)
+      // Incremento menor (0.05 em vez de 0.2)
+      // Aumenta apenas a cada 4 níveis completados usando o operador ~/
+      double speed = 1.0 + ((widget.level - 1) ~/ 4 * 0.05);
+
+      // Limita a velocidade máxima para não ficar muito difícil
+      if (speed > 2.5) {
+        speed = 2.5;
+      }
 
       // Move a letra para baixo
       letter.y += speed;
@@ -1025,10 +1034,13 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
   Widget _buildWordImage(bool isSmallScreen) {
     // Garantir que currentLevel não seja null
     if (currentLevel == null) {
-      return Container(); // Retorna um container vazio se currentLevel for nulo
+      return Container();
     }
 
     final imageSize = isSmallScreen ? 100.0 : 130.0;
+    final emojiSize = isSmallScreen ? 50.0 : 70.0;
+
+    final emojiMapping = EmojiMapping();
 
     return Container(
       margin: EdgeInsets.all(isSmallScreen ? 10 : 15),
@@ -1046,10 +1058,8 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
         ],
       ),
       child: Center(
-        child: Text(
-          currentLevel!.emoji,
-          style: TextStyle(fontSize: isSmallScreen ? 50 : 70),
-        ),
+        // Usa o mapeamento para obter o emoji correto
+        child: emojiMapping.getEmojiWidget(currentLevel!.word, size: emojiSize),
       ),
     );
   }
