@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Fundo com água -->
+  <rect x="0" y="130" width="200" height="70" fill="#87CEEB" />
+  
+  <!-- Corpo do pato -->
+  <ellipse cx="100" cy="120" rx="50" ry="40" fill="#FFFF00" />
+  
+  <!-- Cabeça -->
+  <circle cx="150" cy="90" r="25" fill="#FFFF00" />
+  
+  <!-- Olho -->
+  <circle cx="160" cy="85" r="5" fill="black" />
+  <circle cx="158" cy="83" r="2" fill="white" />
+  
+  <!-- Bico -->
+  <polygon points="170,95 190,90 170,105" fill="#FF8C00" />
+  
+  <!-- Asa -->
+  <ellipse cx="80" cy="110" rx="20" ry="15" fill="#FFD700" />
+  
+  <!-- Pernas -->
+  <line x1="90" y1="160" x2="90" y2="180" stroke="#FF8C00" stroke-width="4" />
+  <line x1="110" y1="160" x2="110" y2="180" stroke="#FF8C00" stroke-width="4" />
+  
+  <!-- Pés -->
+  <polygon points="90,180 80,185 90,185" fill="#FF8C00" />
+  <polygon points="110,180 100,185 110,185" fill="#FF8C00" />
+  
+  <!-- Ondas na água -->
+  <path d="M20 140 Q30 135 40 140 Q50 145 60 140 Q70 135 80 140" fill="none" stroke="#5F9EA0" stroke-width="2" />
+  <path d="M120 150 Q130 145 140 150 Q150 155 160 150 Q170 145 180 150" fill="none" stroke="#5F9EA0" stroke-width="2" />
+</svg>

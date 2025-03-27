@@ -1,0 +1,2 @@
+/Users/robertselddon/projetos/letrario-app/android/app/.cxx/RelWithDebInfo/424oak42/x86/CMakeFiles/edit_cache.dir
+/Users/robertselddon/projetos/letrario-app/android/app/.cxx/RelWithDebInfo/424oak42/x86/CMakeFiles/rebuild_cache.dir

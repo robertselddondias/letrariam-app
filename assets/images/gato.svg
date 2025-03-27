@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Cabeça do gato -->
+  <circle cx="100" cy="100" r="60" fill="#808080" />
+  
+  <!-- Orelhas -->
+  <polygon points="60,55 50,15 80,45" fill="#808080" />
+  <polygon points="140,55 150,15 120,45" fill="#808080" />
+  <polygon points="65,50 58,25 78,43" fill="#FFC0CB" />
+  <polygon points="135,50 142,25 122,43" fill="#FFC0CB" />
+  
+  <!-- Olhos -->
+  <ellipse cx="75" cy="90" rx="10" ry="15" fill="#FFFF00" />
+  <ellipse cx="125" cy="90" rx="10" ry="15" fill="#FFFF00" />
+  <ellipse cx="75" cy="90" rx="5" ry="10" fill="black" />
+  <ellipse cx="125" cy="90" rx="5" ry="10" fill="black" />
+  <circle cx="72" cy="85" r="3" fill="white" />
+  <circle cx="122" cy="85" r="3" fill="white" />
+  
+  <!-- Nariz -->
+  <polygon points="100,110 95,105 105,105" fill="#FFC0CB" />
+  
+  <!-- Boca -->
+  <path d="M95 115 Q100 125 105 115" fill="none" stroke="black" stroke-width="1" />
+  <path d="M95 115 L75 120" fill="none" stroke="black" stroke-width="1" />
+  <path d="M105 115 L125 120" fill="none" stroke="black" stroke-width="1" />
+  
+  <!-- Bigodes -->
+  <line x1="95" y1="110" x2="55" y2="105" stroke="black" stroke-width="1" />
+  <line x1="95" y1="112" x2="60" y2="115" stroke="black" stroke-width="1" />
+  <line x1="95" y1="114" x2="65" y2="125" stroke="black" stroke-width="1" />
+  
+  <line x1="105" y1="110" x2="145" y2="105" stroke="black" stroke-width="1" />
+  <line x1="105" y1="112" x2="140" y2="115" stroke="black" stroke-width="1" />
+  <line x1="105" y1="114" x2="135" y2="125" stroke="black" stroke-width="1" />
+</svg>

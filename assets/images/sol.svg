@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Círculo central do sol -->
+  <circle cx="100" cy="100" r="50" fill="#FFCC00" />
+  
+  <!-- Raios do sol -->
+  <path d="M100 30 L100 10" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  <path d="M100 190 L100 170" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  <path d="M30 100 L10 100" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  <path d="M190 100 L170 100" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  
+  <path d="M48 48 L34 34" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  <path d="M166 166 L152 152" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  <path d="M48 152 L34 166" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  <path d="M166 34 L152 48" stroke="#FFCC00" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Gradiente para dar impressão de brilho -->
+  <circle cx="85" cy="85" r="15" fill="#FFFFCC" />
+</svg>

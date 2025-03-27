@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835036337672",
+    "project_id": "letrario-app",
+    "storage_bucket": "letrario-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835036337672:android:f75bae010939b788d4a3bd",
+        "android_client_info": {
+          "package_name": "com.selddon.letrarium"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Iq5fxCpfStbbjMfyrRBs7MVuexh8b2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

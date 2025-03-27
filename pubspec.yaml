@@ -1,0 +1,48 @@
+name: letrarium
+description: Um jogo de formação de palavras para crianças que estão aprendendo a ler.
+
+# A versão do seu aplicativo segue o padrão semver
+version: 1.0.1+0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.4.0
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.5
+  in_app_purchase: ^3.2.1
+  in_app_purchase_android: ^0.4.0+1
+  in_app_purchase_storekit: ^0.3.21
+  shared_preferences: ^2.5.2
+  games_services: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adicione aqui seus ativos
+  assets:
+    - assets/images/
+    - assets/images/background.png
+    - assets/images/start_background.png
+    - assets/sounds/
+    - assets/sounds/correct.mp3
+    - assets/sounds/error.ogg
+    - assets/sounds/background_music.mp3
+
+  # Adicione aqui suas fontes personalizadas, se necessário
+  # fonts:
+  #   - family: ComicSans
+  #     fonts:
+  #       - asset: assets/fonts/ComicSans-Regular.ttf
+  #       - asset: assets/fonts/ComicSans-Bold.ttf
+  #         weight: 700

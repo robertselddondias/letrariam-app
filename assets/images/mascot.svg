@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Cabeça do mascote -->
+  <circle cx="100" cy="100" r="70" fill="#FF9933" />
+  
+  <!-- Orelhas -->
+  <path d="M50 50 L30 10 L70 30 Z" fill="#FF9933" />
+  <path d="M150 50 L170 10 L130 30 Z" fill="#FF9933" />
+  
+  <!-- Olhos -->
+  <circle cx="70" cy="80" r="12" fill="white" />
+  <circle cx="130" cy="80" r="12" fill="white" />
+  <circle cx="70" cy="80" r="6" fill="black" />
+  <circle cx="130" cy="80" r="6" fill="black" />
+  
+  <!-- Nariz -->
+  <circle cx="100" cy="100" r="10" fill="#663300" />
+  
+  <!-- Boca -->
+  <path d="M70 120 Q100 140 130 120" fill="none" stroke="#663300" stroke-width="4" />
+  
+  <!-- Brilho nos olhos -->
+  <circle cx="65" cy="75" r="3" fill="white" />
+  <circle cx="125" cy="75" r="3" fill="white" />
+</svg>

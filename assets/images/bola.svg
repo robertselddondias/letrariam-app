@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Bola de futebol -->
+  <circle cx="100" cy="100" r="70" fill="white" stroke="black" stroke-width="2" />
+  
+  <!-- Padrão de pentágonos -->
+  <path d="M100 30 L130 45 L120 80 L80 80 L70 45 Z" fill="black" />
+  <path d="M130 45 L170 70 L150 100 L120 80 Z" fill="black" />
+  <path d="M170 70 L170 130 L140 120 L150 100 Z" fill="black" />
+  <path d="M170 130 L130 155 L120 120 L140 120 Z" fill="black" />
+  <path d="M130 155 L100 170 L80 120 L120 120 Z" fill="black" />
+  <path d="M100 170 L70 155 L60 120 L80 120 Z" fill="black" />
+  <path d="M70 155 L30 130 L40 100 L60 120 Z" fill="black" />
+  <path d="M30 130 L30 70 L50 100 L40 100 Z" fill="black" />
+  <path d="M30 70 L70 45 L80 80 L50 100 Z" fill="black" />
+  
+  <!-- Reflexo -->
+  <ellipse cx="70" cy="60" rx="15" ry="10" fill="white" opacity="0.6" />
+</svg>
